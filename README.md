@@ -1,16 +1,21 @@
 
 # NLP
 
-Welcome to the NLP repository! This repository contains a collection of Natural Language Processing (NLP) tasks, including both older files and a newly added NLP pipeline for extracting and normalizing product codes from user reviews.
+Welcome to the NLP repository! This repository contains a collection of Natural Language Processing (NLP) tasks
 
 ## Features
 
-The NLP pipeline leverages Regex, SpaCy, and Hugging Face Transformers for tokenization, POS-tagging, and sentiment analysis. Here are the key features:
+The NLP pipeline leverages Regex, SpaCy, and Hugging Face Transformers for tokenization, POS-tagging, and sentiment analysis.
+Here are the key features:
 
 - **Regex-based Cleaning**: Clean and preprocess text data using regular expressions.
 - **SpaCy Integration**: Tokenize and perform part-of-speech (POS) tagging with SpaCy.
 - **Hugging Face Transformers**: Utilize pretrained BERT models for sentiment analysis.
 - **Product Code Extraction**: Extract and normalize product codes from user reviews.
+
+
+## Note: files provided as PDFs are for illustration since they don’t render natively on GitHub 
+
 
 ## Getting Started
 
@@ -24,7 +29,7 @@ The NLP pipeline leverages Regex, SpaCy, and Hugging Face Transformers for token
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/NLP.git
+   git clone https://github.com/kyramichel/NLP.git
    cd NLP
    ```
 
