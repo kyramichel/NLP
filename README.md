@@ -1,61 +1,65 @@
-
 # NLP
 
-Welcome to the NLP repository! This repository contains a collection of Natural Language Processing (NLP) tasks
+Welcome to the NLP repository! This toolkit demonstrates a simple NLP pipeline for text cleaning, tokenization, POS‐tagging, sentiment analysis, and product‐code extraction.
 
 ## Features
 
-The NLP pipeline leverages Regex, SpaCy, and Hugging Face Transformers for tokenization, POS-tagging, and sentiment analysis.
-Here are the key features:
+- **Regex Cleaning**: Preprocess and normalize raw text.  
+- **spaCy Integration**: Fast tokenization, lemmatization, and POS tagging.  
+- **Hugging Face Transformers**: Pretrained BERT model for sentiment analysis.  
+- **Product Code Extraction**: Identify and normalize product codes in user reviews.  
 
-- **Regex-based Cleaning**: Clean and preprocess text data using regular expressions.
-- **SpaCy Integration**: Tokenize and perform part-of-speech (POS) tagging with SpaCy.
-- **Hugging Face Transformers**: Utilize pretrained BERT models for sentiment analysis.
-- **Product Code Extraction**: Extract and normalize product codes from user reviews.
+> **Note:** Some files are provided as PDFs for illustration since they don’t render natively on GitHub.
 
-
-## Note: files provided as PDFs are for illustration since they don’t render natively on GitHub 
-
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.7+
-- Jupyter Notebook or JupyterLab
-- Git
+- Python 3.7+  
+- Git  
 
 ### Installation
 
-1. **Clone the repository**:
+1. Clone the repo  
    ```sh
    git clone https://github.com/kyramichel/NLP.git
    cd NLP
    ```
 
-2. **Create a virtual environment** (optional but recommended):
+2. (Optional) Create & activate a virtual environment  
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate    # Windows: venv\Scripts\activate
    ```
 
-3. **Install the required packages**:
+3. Install dependencies  
    ```sh
    pip install -r requirements.txt
    ```
 
-### Usage
+---
 
-1. **Open Jupyter Notebook**:
-   ```sh
-   jupyter notebook
-   ```
+## Usage
 
-2. **Navigate to the notebooks directory** and open the desired notebook to start using the NLP pipeline.
+Run the demo script to see the full pipeline in action:
 
+```sh
+python sentiment_demo.py
+```
 
-### Acknowledgments
+This will:
 
-- SpaCy: For powerful NLP capabilities.
-- Hugging Face Transformers: For state-of-the-art NLP models.
-- Regex: For text preprocessing.
+1. Clean and preprocess example text with regex.  
+2. Tokenize & POS-tag with spaCy.  
+3. Perform sentiment analysis using a Hugging Face BERT model.  
+4. Extract and normalize product codes from sample reviews.  
+
+---
+
+## Acknowledgments
+
+- **spaCy** — industrial-strength NLP in Python  
+- **Hugging Face Transformers** — state-of-the-art pretrained models  
+- **Regex** — versatile text preprocessing
